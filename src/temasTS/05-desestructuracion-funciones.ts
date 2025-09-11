@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 export interface Producto{
+=======
+interface Producto{
+>>>>>>> 28c38f03f9cad3bc4161f98edba9b47f0143ca9e
     nombre:string,
     precio:number
 }
@@ -25,7 +29,11 @@ const isv=calcularISV(articulos)
 console.log('ISV',isv);
 
 //Desestructuracion de funciones
+<<<<<<< HEAD
 export function calcularISV2(productos:Producto[]):[number,number]{
+=======
+function calcularISV2(productos:Producto[]):[number,number]{
+>>>>>>> 28c38f03f9cad3bc4161f98edba9b47f0143ca9e
     let total=0;
     for(let producto of productos){
         total+=producto.precio
