@@ -7,6 +7,11 @@ import './temasTS/02-obj-interfaz-arre.ts'
 import './temasTS/03-funciones.ts'
 import './temasTS/04-desestructuracion-ob-arre.ts'
 import './temasTS/05-desestructuracion-funciones.ts'
+import './temasTS/06-importar-exportar.ts'
+import './temasTS/07-clases.ts'
+import './temasTS/08-herecia.ts'
+
+
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
